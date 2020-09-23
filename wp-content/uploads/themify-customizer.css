@@ -1,0 +1,9 @@
+/* Themify Customize Styling */
+.header-classic #headerwrap, #headerwrap {	background: none;
+	background-color: #222222;background-image: url(http://localhost/thmnetwork/wp-content/uploads/2020/09/IMG-20200719-WA0005.jpg); 
+}
+body[class*="themify"] #site-logo a {	
+	font-family: "Roboto";	font-weight:bold;
+
+	color: #ffffff; 
+}
