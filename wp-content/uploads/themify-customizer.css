@@ -2,8 +2,40 @@
 .header-classic #headerwrap, #headerwrap {	background: none;
 	background-color: #222222;background-image: url(http://localhost/thmnetwork/wp-content/uploads/2020/09/IMG-20200719-WA0005.jpg); 
 }
-body[class*="themify"] #site-logo a {	
+#header {	
 	font-family: "Roboto";	font-weight:bold;
-
-	color: #ffffff; 
+ 
 }
+body[class*="themify"] #site-logo a img {	
+	height: 35px; 
+}
+#site-logo {	top: auto;right: auto;bottom: auto;left: auto; 
+}
+#site-description {	top: auto;right: auto;bottom: auto;left: auto; 
+}
+.module-title {	background: none;
+	background-color: rgba(204,110,110,0.48);
+	border: 7px double #c40202;
+	margin: 22px;
+	padding: 22px;
+	color: #11db22;	text-decoration:underline;
+	font-weight:500;
+	letter-spacing:3px;
+	font-style:normal;
+	font-size:32px;
+	line-height:4px;
+	text-transform:lowercase;	text-align:center; 
+}
+@media screen and (max-width: 1280px) { /* Themify Customize Styling */
+body[class*="themify"] #site-logo a img {	
+	height: 35px; 
+}
+ }@media screen and (max-width: 768px) { /* Themify Customize Styling */
+body[class*="themify"] #site-logo a img {	
+	height: 35px; 
+}
+ }@media screen and (max-width: 680px) { /* Themify Customize Styling */
+body[class*="themify"] #site-logo a img {	
+	height: 35px; 
+}
+ }
